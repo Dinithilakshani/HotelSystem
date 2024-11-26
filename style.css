@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans:wght@300..700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+a:hover{
+    color: #F58d17;
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    border: 0;
+    padding: 14px 38px;
+}
+.btn-brand{
+    background-color: #F58d17;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 12px;
+    border-color: #F58d17;
+}
+
+.btn-brand:hover{
+    border-color: #a86314;
+    background-color: #b46b16;
+    color: #fff;
+}
+.box{
+    width: 100px;
+    height: 500px;
+    background-color: #fff;
+}
+.card-img-container {
+    overflow: hidden;
+    border-radius: 8px 8px 0 0; /* Top corners rounded */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Makes sure the image fits within the card */
+    height: 150px; /* Adjust height based on design */
+    object-fit: cover; /* Ensures the image scales nicely */
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to the card */
+    border-radius: 8px; /* Rounds the card edges */
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  .card-body {
+    padding: 15px;
+  }
+  .card-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
